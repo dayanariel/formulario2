@@ -1,0 +1,58 @@
+
+#caja1{
+  background-color: #848484;
+  margin-left: 20%;
+}
+
+#caja2
+body{
+  background:white;
+}
+
+form{
+  width: 60%;
+  height: 40%;
+  margin-left: 10%;
+  border-color: red;
+
+}
+label{
+  margin-left: 20px;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  text-align: left;
+}
+label:hover{
+  color: black;
+  cursor: pointer;
+  font-size: 18px;
+}
+input:hover{
+  color: blue;
+}
+input[type="text"]{
+    
+    background-color: #848484;
+    border: 2px dashed blue;
+    border-top: 4px solid #848484;
+    border-left: 4px solid #848484;
+    border-right: 4px solid #848484;
+    font-size: 18px;
+    height: 30px;
+    width: 400px;
+}
+input[type="text"]:focus{
+background: #848484;
+font-size: 18px;
+}
+button, input[type="reset"]{
+  margin-bottom: 20px;
+  margin-left: 20px;
+  border-radius: 10px;
+  background: #0171bb;
+  color: #ffff;
+  cursor: pointer;
+  padding: 15px 25px;
+  font-size: 18px;
+}
